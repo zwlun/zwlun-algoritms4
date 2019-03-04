@@ -1,12 +1,12 @@
 /******************************************************************************
- *  Compilation:  javac Queue.java
- *  Execution:    java Queue < input.txt
+ *  Compilation:  javac queue.java
+ *  Execution:    java queue < input.txt
  *  Dependencies: StdIn.java StdOut.java
  *  Data files:   https://algs4.cs.princeton.edu/13stacks/tobe.txt  
  *
  *  A generic queue, implemented using a linked list.
  *
- *  % java Queue < tobe.txt 
+ *  % java queue < tobe.txt
  *  to be or not to be (2 left on queue)
  *
  ******************************************************************************/
@@ -17,7 +17,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- *  The {@code Queue} class represents a first-in-first-out (FIFO)
+ *  The {@code queue} class represents a first-in-first-out (FIFO)
  *  queue of generic items.
  *  It supports the usual <em>enqueue</em> and <em>dequeue</em>
  *  operations, along with methods for peeking at the first item,
@@ -84,7 +84,7 @@ public class Queue<Item> implements Iterable<Item> {
      * @throws NoSuchElementException if this queue is empty
      */
     public Item peek() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) throw new NoSuchElementException("queue underflow");
         return first.item;
     }
 
@@ -110,7 +110,7 @@ public class Queue<Item> implements Iterable<Item> {
      * @throws NoSuchElementException if this queue is empty
      */
     public Item dequeue() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) throw new NoSuchElementException("queue underflow");
         Item item = first.item;
         first = first.next;
         n--;
@@ -162,7 +162,7 @@ public class Queue<Item> implements Iterable<Item> {
 
 
     /**
-     * Unit tests the {@code Queue} data type.
+     * Unit tests the {@code queue} data type.
      *
      * @param args the command-line arguments
      */

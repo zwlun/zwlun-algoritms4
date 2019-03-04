@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac BST.java
  *  Execution:    java BST
- *  Dependencies: StdIn.java StdOut.java Queue.java
+ *  Dependencies: StdIn.java StdOut.java queue.java
  *  Data files:   https://algs4.cs.princeton.edu/32bst/tinyST.txt  
  *
  *  A symbol table implemented with a binary search tree.

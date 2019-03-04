@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac LookupIndex.java
  *  Execution:    java LookupIndex movies.txt "/"
- *  Dependencies: ST.java Queue.java In.java StdIn.java StdOut.java
+ *  Dependencies: ST.java queue.java In.java StdIn.java StdOut.java
  *  Data files:   https://algs4.cs.princeton.edu/35applications/aminoI.csv
  *                https://algs4.cs.princeton.edu/35applications/movies.txt
  *

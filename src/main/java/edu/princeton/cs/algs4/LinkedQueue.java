@@ -6,7 +6,7 @@
  *
  *  A generic queue, implemented using a singly linked list.
  *
- *  % java Queue < tobe.txt 
+ *  % java queue < tobe.txt
  *  to be or not to be (2 left on queue)
  *
  ******************************************************************************/
@@ -78,7 +78,7 @@ public class LinkedQueue<Item> implements Iterable<Item> {
      * @throws java.util.NoSuchElementException if this queue is empty
      */
     public Item peek() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) throw new NoSuchElementException("queue underflow");
         return first.item;
     }
 
@@ -103,7 +103,7 @@ public class LinkedQueue<Item> implements Iterable<Item> {
      * @throws java.util.NoSuchElementException if this queue is empty
      */
     public Item dequeue() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) throw new NoSuchElementException("queue underflow");
         Item item = first.item;
         first = first.next;
         n--;

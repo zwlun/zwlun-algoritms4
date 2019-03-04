@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac CC.java
  *  Execution:    java CC filename.txt
- *  Dependencies: Graph.java StdOut.java Queue.java
+ *  Dependencies: Graph.java StdOut.java queue.java
  *  Data files:   https://algs4.cs.princeton.edu/41graph/tinyG.txt
  *                https://algs4.cs.princeton.edu/41graph/mediumG.txt
  *                https://algs4.cs.princeton.edu/41graph/largeG.txt

@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac FordFulkerson.java
  *  Execution:    java FordFulkerson V E
- *  Dependencies: FlowNetwork.java FlowEdge.java Queue.java
+ *  Dependencies: FlowNetwork.java FlowEdge.java queue.java
  *  Data files:   https://algs4.cs.princeton.edu/65maxflow/tinyFN.txt
  *
  *  Ford-Fulkerson algorithm for computing a max flow and 

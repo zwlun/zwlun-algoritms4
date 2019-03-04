@@ -1,4 +1,4 @@
-package zwlun.learn.chapter1.Queue;
+package zwlun.learn.chapter1.queue;
 
 public class LinkedListQueueOfString {
     private Node first;

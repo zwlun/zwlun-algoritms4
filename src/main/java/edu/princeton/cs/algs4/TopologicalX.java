@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac TopologicalX.java
  *  Execution:    java TopologicalX V E F
- *  Dependencies: Queue.java Digraph.java
+ *  Dependencies: queue.java Digraph.java
  *
  *  Compute topological ordering of a DAG using queue-based algorithm.
  *  Runs in O(E + V) time.

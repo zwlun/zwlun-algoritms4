@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac NonrecursiveDFS.java
  *  Execution:    java NonrecursiveDFS graph.txt s
- *  Dependencies: Graph.java Queue.java stack.java StdOut.java
+ *  Dependencies: Graph.java queue.java stack.java StdOut.java
  *  Data files:   https://algs4.cs.princeton.edu/41graph/tinyCG.txt
  *                https://algs4.cs.princeton.edu/41graph/tinyG.txt
  *                https://algs4.cs.princeton.edu/41graph/mediumG.txt

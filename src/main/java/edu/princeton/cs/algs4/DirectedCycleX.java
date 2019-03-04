@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac DirectedCycleX.java
  *  Execution:    java DirectedCycleX V E F
- *  Dependencies: Queue.java Digraph.java stack.java
+ *  Dependencies: queue.java Digraph.java stack.java
  *
  *  Find a directed cycle in a digraph, using a nonrecursive, queue-based
  *  algorithm. Runs in O(E + V) time.

@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac BellmanFordSP.java
  *  Execution:    java BellmanFordSP filename.txt s
- *  Dependencies: EdgeWeightedDigraph.java DirectedEdge.java Queue.java
+ *  Dependencies: EdgeWeightedDigraph.java DirectedEdge.java queue.java
  *                EdgeWeightedDirectedCycle.java
  *  Data files:   https://algs4.cs.princeton.edu/44sp/tinyEWDn.txt
  *                https://algs4.cs.princeton.edu/44sp/mediumEWDnc.txt

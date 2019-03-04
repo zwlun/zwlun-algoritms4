@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac PatriciaST.java
  *  Execution:    java PatriciaST
- *  Dependencies: StdOut.java StdRandom.java Queue.java
+ *  Dependencies: StdOut.java StdRandom.java queue.java
  *  Data files:   n/a
  *
  *  A symbol table implementation based on PATRICIA.

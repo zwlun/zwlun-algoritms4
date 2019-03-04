@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac BreadthFirstDirectedPaths.java
  *  Execution:    java BreadthFirstDirectedPaths digraph.txt s
- *  Dependencies: Digraph.java Queue.java stack.java
+ *  Dependencies: Digraph.java queue.java stack.java
  *  Data files:   https://algs4.cs.princeton.edu/42digraph/tinyDG.txt
  *                https://algs4.cs.princeton.edu/42digraph/mediumDG.txt
  *                https://algs4.cs.princeton.edu/42digraph/largeDG.txt

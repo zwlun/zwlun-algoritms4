@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac PatriciaSET.java
  *  Execution:    java PatriciaSET
- *  Dependencies: StdOut.java StdRandom.java Queue.java
+ *  Dependencies: StdOut.java StdRandom.java queue.java
  *  Data files:   n/a
  *
  *  A set implementation based on PATRICIA.

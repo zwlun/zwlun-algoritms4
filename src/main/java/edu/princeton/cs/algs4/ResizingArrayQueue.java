@@ -4,7 +4,7 @@
  *  Dependencies: StdIn.java StdOut.java
  *  Data files:   https://algs4.cs.princeton.edu/13stacks/tobe.txt  
  *  
- *  Queue implementation with a resizing array.
+ *  queue implementation with a resizing array.
  *
  *  % java ResizingArrayQueue < tobe.txt 
  *  to be or not to be (2 left on queue)
@@ -99,7 +99,7 @@ public class ResizingArrayQueue<Item> implements Iterable<Item> {
      * @throws java.util.NoSuchElementException if this queue is empty
      */
     public Item dequeue() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) throw new NoSuchElementException("queue underflow");
         Item item = q[first];
         q[first] = null;                            // to avoid loitering
         n--;
@@ -116,7 +116,7 @@ public class ResizingArrayQueue<Item> implements Iterable<Item> {
      * @throws java.util.NoSuchElementException if this queue is empty
      */
     public Item peek() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) throw new NoSuchElementException("queue underflow");
         return q[first];
     }
 
