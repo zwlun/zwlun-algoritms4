@@ -19,7 +19,7 @@ public class QuickSort {
      * 两个指针，一头一尾，向中间移动，找到第一个元素合适的位置，是左边的元素都小于第一个元素，右边的元素都大于第一个元素
      */
     public static int partition(int[] a, int lo, int hi) {
-        int i =lo;
+        int i = lo;
         int j = hi + 1;
         while (true) {
             while (a[lo] > a[++i]) {
